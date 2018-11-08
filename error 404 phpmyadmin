@@ -1,0 +1,10 @@
+
+gedit /etc/apache2/apache2.conf
+
+incluir na ultima linha
+
+Include /etc/phpmyadmin/apache.conf
+
+service apache2 restart
+
+http://localhost/phpmyadmin
